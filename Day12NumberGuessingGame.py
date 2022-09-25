@@ -2,7 +2,7 @@ import random
 from Day12logo import logo
 
 def GuesstheNumber():
-    guessed_number = random.randint(1,101)
+    guessed_number = random.randint(1,100)
     print(logo)
     print('Welcome to the Number Guessing Game!')
     print('I am thinking of a number between 1 and 100.')
